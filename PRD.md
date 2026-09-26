@@ -38,6 +38,7 @@ Users can add:
 * Transaction date
 * Transaction type
 * Amount
+* Category
 * Description
 
 Transaction types:
@@ -59,20 +60,25 @@ Users can delete an unwanted transaction.
 
 ### 5.6 Search Transaction
 
-Users can search transactions by description or type.
+Users can search transactions by:
+
+* Description
+* Category
+* Transaction type
 
 ## 6. Database
 
-The application will use MySQL.
+The application uses MySQL.
 
 ### Transaction Table
 
 Fields:
 
-* ID
-* Date
+* Transaction ID
+* Transaction Date
 * Transaction Type
 * Amount
+* Category
 * Description
 
 ## 7. Technologies
@@ -84,4 +90,4 @@ Fields:
 
 ## 8. Expected Result
 
-The final application should provide a simple and user-friendly dashboard where a small business owner can record transactions and understand their income, expenses, and remaining balance.
+The final application provides a simple dashboard where a small business owner can record, search, edit, and delete transactions and understand their income, expenses, and remaining balance.
